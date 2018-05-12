@@ -7,30 +7,30 @@
 05- favorite_language = favorite_language.rstrip() #remove whitespaces from right side  
 06- message = "Happy " + str(age) + "rd Birthday!" #print string with integer  
 
-(3) Introducing Lists
+(3) Introducing Lists  
 
-01- bicycles = ['trek', 'cannondale', 'redline', 'specialized']
-02- print(bicycles[0])
-03- print(bicycles[-1])
-04- motorcycles[0] = 'ducati'
-05- motorcycles.append('ducati')
-06- motorcycles.insert(0, 'ducati')
-07- del motorcycles[0]
-08- popped_motorcycle = motorcycles.pop() 
-09- first_owned = motorcycles.pop(0)
-10- cars.sort()
-11- cars.sort(reverse=True)`
-12- print(sorted(cars))
-13- cars.reverse()
-14- print(len(cars))
+01- bicycles = ['trek', 'cannondale', 'redline', 'specialized']  
+02- print(bicycles[0])  
+03- print(bicycles[-1])  
+04- motorcycles[0] = 'ducati'  
+05- motorcycles.append('ducati')  
+06- motorcycles.insert(0, 'ducati')  
+07- del motorcycles[0]  
+08- popped_motorcycle = motorcycles.pop()   
+09- first_owned = motorcycles.pop(0)  
+10- cars.sort()  
+11- cars.sort(reverse=True)  `
+12- print(sorted(cars))  
+13- cars.reverse()  
+14- print(len(cars))  
 
-(4) Working with Lists
+(4) Working with Lists  
 
-01- for m in magicians:
-    print(m)
-02- for value in range(1,5):
-    print(value)
-03- numbers = list(range(1,6))
+01- for m in magicians:  
+        print(m)  
+02- for value in range(1,5):  
+        print(value)  
+03- numbers = list(range(1,6))  
 
 04- min(digits)
 05- max(digits)
