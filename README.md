@@ -1,11 +1,11 @@
-(2) Variable & Simple Data Types
+(2) Variable & Simple Data Types  
 
-01- print(str.title()) #case the string
-02- print(str.upper()) #uppercase the string
-03- print(str.lower()) #lowercase the string
-04- print("\tPython") #whitespaces using tabs
-05- favorite_language = favorite_language.rstrip() #remove whitespaces from right side
-06- message = "Happy " + str(age) + "rd Birthday!" #print string with integer
+01- print(str.title()) #case the string  
+02- print(str.upper()) #uppercase the string  
+03- print(str.lower()) #lowercase the string  
+04- print("\tPython") #whitespaces using tabs  
+05- favorite_language = favorite_language.rstrip() #remove whitespaces from right side  
+06- message = "Happy " + str(age) + "rd Birthday!" #print string with integer  
 
 (3) Introducing Lists
 
@@ -151,3 +151,8 @@ Python Enhancement Proposal (PEP)
         json.dump(numbers, f_obj)
 11- with open(filename) as f_obj:
         numbers = json.load(f_obj)
+12- 
+
+
+
+The variable username in the definition of greet_user() is an example of a parameter, a piece of information the function needs to do its job. The value 'jesse' in greet_user('jesse') is an example of an argument. An argument is a piece of information that is passed from a function call to a function.                                                                
