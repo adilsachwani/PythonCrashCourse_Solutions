@@ -1,0 +1,5 @@
+In Python you can makes classes
+In Python you can store variable without datatype
+In Python you can convert integer to string
+In Python you can inherit classes
+In Python you can override parent method
