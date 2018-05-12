@@ -1,4 +1,4 @@
-(2) Variable & Simple Data Types  
+**(2) Variable & Simple Data Types**  
 
 01- print(str.title()) #case the string  
 02- print(str.upper()) #uppercase the string  
@@ -7,7 +7,7 @@
 05- favorite_language = favorite_language.rstrip() #remove whitespaces from right side  
 06- message = "Happy " + str(age) + "rd Birthday!" #print string with integer  
 
-(3) Introducing Lists  
+**(3) Introducing Lists**  
 
 01- bicycles = ['trek', 'cannondale', 'redline', 'specialized']  
 02- print(bicycles[0])  
@@ -19,12 +19,12 @@
 08- popped_motorcycle = motorcycles.pop()   
 09- first_owned = motorcycles.pop(0)  
 10- cars.sort()  
-11- cars.sort(reverse=True)  `
+11- cars.sort(reverse=True)  
 12- print(sorted(cars))  
 13- cars.reverse()  
 14- print(len(cars))  
 
-(4) Working with Lists  
+**(4) Working with Lists**  
 
 01- for m in magicians:  
         print(m)  
@@ -47,7 +47,7 @@ Python Enhancement Proposal (PEP)
 15- Line length: each line should be less than 80 characters
 16- Blank lines
 
-(5) IF Statements
+**(5) IF Statements**  
 
 01- if car == 'bmw':
         print(car.upper())
@@ -64,7 +64,7 @@ Python Enhancement Proposal (PEP)
         price = 10
 05- if requested_toppings: #checking list empty or not
 
-(6) Dictionaries
+**(6) Dictionaries**  
 
 01- alien_0 = {'color': 'green', 'points': 5}
 02- alien_0['color'] = 'yellow'
@@ -79,7 +79,7 @@ Python Enhancement Proposal (PEP)
         'toppings': ['mushrooms', 'extra cheese']
         }
 
-(7) User Input and While Loops
+**(7) User Input and While Loops**  
 
 01- message = input("Tell me something, and I will repeat it back to you: ")
 02- prompt = "If you tell us who you are, we can personalize the messages you see." 
@@ -93,7 +93,7 @@ Python Enhancement Proposal (PEP)
         pets.remove('cat')
 06- responses[name] = response #dictionary
 
-(8) Functions
+**(8) Functions**  
 
 01- def function_name(parameter_0, parameter_1='default value'): 
 02- describe_pet('hamster','harry'): #positional arguments
@@ -109,7 +109,7 @@ Python Enhancement Proposal (PEP)
 12- from pizza import make_pizza as mp #alias module functions
 13- from pizza import * #importing all functions of module
 
-(9) Classes
+**(9) Classes**  
 
 01- class Dog():
 02- def __init__(self, name, age):
@@ -119,7 +119,7 @@ Python Enhancement Proposal (PEP)
 05- def __init__(self, make, model, year):
         super().__init__(make, model, year)
 
-(10) Files and Exception
+**(10) Files and Exception**  
 
 01- with open('pi_digits.txt') as file_object:
         contents = file_object.read()
@@ -150,9 +150,4 @@ Python Enhancement Proposal (PEP)
     with open(filename, 'w') as f_obj:
         json.dump(numbers, f_obj)
 11- with open(filename) as f_obj:
-        numbers = json.load(f_obj)
-12- 
-
-
-
-The variable username in the definition of greet_user() is an example of a parameter, a piece of information the function needs to do its job. The value 'jesse' in greet_user('jesse') is an example of an argument. An argument is a piece of information that is passed from a function call to a function.                                                                
+        numbers = json.load(f_obj)                                                               
